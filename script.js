@@ -16,12 +16,25 @@ function generatePassword() {
     // GOOD CODE GOES HERE
   } else {
     alert("Enter a valid number");
+    return generatePassword();
+
   }
 
-  return "";
+  if (input >= 8 && input <= 128) {
+    var special = confirm('Include speacial characters?');
+    var numbers = confirm('Include numbers?');
+    var lowercase = confirm('Include lowercase characters?');
+    var uppercase = confirm('Include uppercase characters');
+  }
+  
+if (special === false && numbers === false && lowercase === false && uppercase === false){
+  alert('Please select your criteria!');
+  return generatePassword();
+}
 
 
 }
+
 
 
 // Write password to the #password input
