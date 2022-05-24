@@ -5,4 +5,4 @@
 <h1>Resources<h1>
 <a href= "https://github.com/Gcoder9/passwordgenerator"> Github </a>
 
-<a href= "file:///Users/gregchambers/Bootcamp/Homework/passwordgenerator/index.html">Live site</a>
+<a href= "https://gcoder9.github.io/passwordgenerator/">Live site</a>
